@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [herpkupapp Test Suite]">
+  <test thread-count="5" name="herpkupapp test Case(failed)">
+    <classes>
+      <class name="com.herpkupapp.testcase.IFramesPageTestCase">
+        <methods>
+          <include name="clickElementSelenium"/>
+          <include name="initheroupapp"/>
+        </methods>
+      </class> <!-- com.herpkupapp.testcase.IFramesPageTestCase -->
+    </classes>
+  </test> <!-- herpkupapp test Case(failed) -->
+</suite> <!-- Failed suite [herpkupapp Test Suite] -->
